@@ -1,0 +1,103 @@
+/* ************************************* */
+/* HELP CSS STARTS HERE */
+/* ************************************* */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0 !important;
+}
+
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1270px;
+    margin: auto;
+    padding: 0 3%;
+}
+:root{
+    --basic-color: #020b33 ;
+}
+
+/* ************************************* */
+/* HELP CSS STARTS HERE */
+/* ************************************* */
+
+
+
+
+
+
+
+/* **************************************** */
+/* NAVBAR START HERE */
+/* **************************************** */
+.nav-bar{
+    background-color:#f1ddcf ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--basic-color);
+}
+nav ul li{
+    display: inline-block;
+    padding: 25px 0;
+}
+
+nav ul li a{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: var(--basic-color);
+    font-weight: 450;
+    transition: all 0.50s ease-in;
+}
+nav ul li:not(:last-child){
+    margin-right: 20px;
+}
+nav ul li a:hover{
+    color: rgb(253, 9, 1);
+}
+.actvie{
+    color: rgb(253, 9, 1);
+}
+
+/* menu icon herer */
+.menu-icon{
+    color: var(--basic-color);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    z-index: 10001;
+    cursor: pointer;
+    display: none;
+    padding: 12px 0;
+}
+#menu-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* **************************************** */
+/* NAVBAR ENDS HERE */
+/* **************************************** */
